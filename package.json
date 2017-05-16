@@ -1,0 +1,39 @@
+{
+  "name": "@ngx-webpack/tslint-config",
+  "version": "0.0.0",
+  "description": "Tslint config for ngx-webpack",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "np --skip-cleanup",
+    "test": "tslint -c index.js 'src/**/*.ts'"
+  },
+  "author": {
+    "name": "blacksonic",
+    "email": "soos.gabor86@gmail.com"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blacksonic/ngx-webpack/tslint-config.git"
+  },
+  "keywords": [
+    "angular",
+    "tslint"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@angular/compiler": "~4.1.2",
+    "@angular/core": "~4.1.2",
+    "codelyzer": "~3.0.1",
+    "np": "~2.14.1",
+    "tslint": "~5.2.0",
+    "typescript": "~2.3.2",
+    "zone.js": "~0.8.10"
+  },
+  "peerDependencies": {
+    "codelyzer": "^3.0.0",
+    "tslint": "^5.0.0"
+  }
+}
