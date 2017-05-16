@@ -4,7 +4,7 @@
   "description": "Tslint config for ngx-webpack",
   "main": "index.js",
   "scripts": {
-    "deploy": "np --skip-cleanup",
+    "deploy-npm": "np --skip-cleanup",
     "test": "tslint -c index.js 'src/**/*.ts'"
   },
   "author": {
