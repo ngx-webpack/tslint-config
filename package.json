@@ -1,6 +1,6 @@
 {
   "name": "@ngx-webpack/tslint-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Tslint config for ngx-webpack",
   "main": "index.js",
   "scripts": {
